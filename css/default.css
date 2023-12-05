@@ -6,10 +6,6 @@
     font-size: 14px;
 }
 
-[class*="col-"] {
-    float: left;
-} 
-
 header {
     display: flex;
     justify-content: space-between;
@@ -58,6 +54,9 @@ header a:first-child {
 .gallery {
     width: 90%;
     margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .gallery div {
