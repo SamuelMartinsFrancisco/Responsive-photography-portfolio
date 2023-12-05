@@ -12,7 +12,16 @@
 .col-m-11 {width: 91.66%;}
 .col-m-12 {width: 100%;}
 
-
 header nav {
+    height: 0px;
+    width: 100%; 
+    position: absolute;
+    transition: 0.5s;
+    top: 170px;
+    left: 0px;
+}
+
+header a {
     display: none;
+    padding: 0px;
 }
