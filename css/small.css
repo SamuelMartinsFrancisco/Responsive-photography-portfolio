@@ -12,16 +12,22 @@
 .col-s-11 {width: 91.66%;}
 .col-s-12 {width: 100%;}
 
+header h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 header nav {
     height: 0px;
-    width: 100%; 
+    width: 100vw; 
     position: absolute;
     transition: 0.5s;
-    top: 170px;
+    top: 100px;
     left: 0px;
 }
 
 header a {
     display: none;
     padding: 0px;
+    margin-left: 0px;
 }
