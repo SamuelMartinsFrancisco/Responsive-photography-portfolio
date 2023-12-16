@@ -40,10 +40,10 @@ header h1 {
     font-size: 40px;
 }
 
-.gallery {
+main {
     width: 95%;
 }
 
-.gallery figure p {
+main figure p {
     font-size: 20px;
 }

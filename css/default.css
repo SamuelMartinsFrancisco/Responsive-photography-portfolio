@@ -6,6 +6,10 @@
     font-size: 14px;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -51,7 +55,7 @@ header a:first-child {
     flex-direction: column;
 }
 
-.gallery {
+main {
     width: 90%;
     margin-bottom: 60px;
     display: flex;
@@ -59,20 +63,20 @@ header a:first-child {
     justify-content: center;
 }
 
-.gallery div {
+main div {
     margin-bottom: 20px;
     padding: 10px;
 }
 
-.gallery figure {
+main figure {
     width: 100%;
 }
 
-.gallery figure img {
+main figure img {
     border-radius: 5px; 
 }
 
-.gallery figure p {
+main figure p {
     text-align: center;
     margin-top: 10px;
     font-size: 16px;
@@ -147,6 +151,6 @@ footer img:hover {
     cursor: pointer;
 }
 
-.gallery img {
+main img {
     cursor: pointer;
 }
